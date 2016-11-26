@@ -1,1 +1,1 @@
-# Coffee-Bean-Initiative
+# CoffeeBeanInitiative
