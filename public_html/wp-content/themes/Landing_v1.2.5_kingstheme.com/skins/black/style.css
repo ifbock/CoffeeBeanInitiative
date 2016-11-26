@@ -1,0 +1,52 @@
+/*
+Skin Name: Black
+Version: 1.0
+Description: Skin for Landing
+
+*/
+
+#headerwrap,
+#footerwrap,
+#respond #cancel-comment-reply-link,
+input[type=reset], input[type=submit], button {
+	background-color: #000;
+	color: #fff;
+}
+#sidebar .widgettitle {
+	border-top: 5px solid #000;
+}
+.post-nav {
+	border-top: 5px solid #000;
+	border-bottom: 5px solid #000;
+}
+.related-posts,
+.commentlist {
+	border-bottom: 5px solid #000;
+}
+#main-nav a,
+#main-nav ul a {
+	color: #fff;
+}
+.footer-widgets-wrap {
+	background-color: #222;
+}
+#headerwrap #menu-icon {
+	color: #fff;
+}
+.module-box .price-box.default h3 {
+	background-color: #000;
+	color: #fff;
+}
+.custom-tabs.default.ui.module-tab.rounded .tab-nav li.current,
+.custom-tabs.default.ui.module-tab.rounded .tab-nav li:hover {
+	background-color: #999 !important;
+	color: #fff;
+}
+.custom-tabs.default.ui.module-tab.rounded .tab-nav li.current a:after,
+.custom-tabs.default.ui.module-tab.rounded .tab-nav li:hover a:after {
+	border-top-color: #999;
+}
+.custom-tabs.default.ui.module-tab.rounded .tab-nav li.current > a,
+.custom-tabs.default.ui.module-tab.rounded .tab-nav li:hover > a {
+	color: #fff;
+}

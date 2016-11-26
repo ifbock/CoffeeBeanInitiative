@@ -1,0 +1,183 @@
+/************************************************************************************
+GENERAL
+*************************************************************************************/
+body {
+	text-align: right;
+}
+input[type=text], input[type=password],
+input[type=search], input[type=email],
+input[type=url], input[type=tel] {
+	margin-left: 1.1em;
+	margin-right: auto;
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+#header {
+	text-align: right;
+}
+
+#site-logo,
+#site-description {
+	float: right;
+}
+#header .social-widget,
+#searchform-wrap,
+#main-nav {
+	float: left;
+}
+
+#site-logo {
+	margin-right: auto;
+	margin-left: .55em;
+}
+#header .social-widget {
+	margin-left: 2.4em;
+	margin-right: .8em;
+}
+.social-widget div.rss {
+	margin-left: 6px;
+	margin-right: 12px;
+}
+#headerwrap #searchform {
+	right: auto;
+	left: 0;
+}
+#headerwrap #searchform #s {
+	float: left;
+	padding-left: 30px;
+}
+#headerwrap #searchform .icon-search:before {
+	right: auto;
+	left: .25em;
+}
+
+.header-block #header,
+.header-block #header,
+.header-block #header,
+.header-block #header,
+.header-block #header {
+	text-align: center;
+}
+
+/************************************************************************************
+POST
+*************************************************************************************/
+.loops-wrapper .post {
+	text-align: right;
+}
+
+.post-meta span,
+.post-date {
+	margin-left: 2.2em;
+	margin-right: auto;
+}
+.post-author:before,
+.post-date:before,
+.post-comment:before,
+.post-category:before,
+.post-tag:before {
+	margin-right: auto;
+	margin-left: .65em;
+}
+
+/************************************************************************************
+PAGE PAGINATION
+*************************************************************************************/
+.pagenav .next:after,
+.pagenav a:not(.page-numbers):last-child:after {
+    left: auto;
+	right: 100%;
+    border-left-color: transparent;
+    border-right-color: #654e9c;
+}
+.pagenav .next:hover:after,
+.pagenav a:not(.page-numbers):last-child:hover:after {
+	border-left-color: transparent;
+	border-right-color: #4C397A;
+}
+.pagenav .prev:after,
+.pagenav a:not(.page-numbers):first-child:after {
+	right: auto;
+	left: 100%;
+	border-right-color: transparent;
+	border-left-color: #654e9c;
+}
+.pagenav .prev:hover:after,
+.pagenav a:not(.page-numbers):first-child:hover:after {
+	border-right-color: transparent;
+	border-left-color: #654e9c;
+}
+
+/************************************************************************************
+POST NAVIGATION
+*************************************************************************************/
+/* post navigation */
+.post-nav .prev {
+	text-align: left;
+}
+
+/************************************************************************************
+WIDGET STYLES
+*************************************************************************************/
+/* feature-posts-list */
+.widget .feature-posts-list .post-img {
+    float: right;
+    margin-left: 1.2em;
+    margin-right: 0;
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footer {
+	text-align: right;
+}
+
+#footer .one {
+	float: right;
+}
+#footer .two {
+	float: left;
+}
+.landing-back-top span:before {
+	margin-left: -7px;
+}
+
+.woocommerce #content nav.woocommerce-pagination ul li,
+.woocommerce nav.woocommerce-pagination ul li,
+.woocommerce-page #content nav.woocommerce-pagination ul li,
+.woocommerce-page nav.woocommerce-pagination ul li {
+	float: none;
+}
+
+/************************************************************************************
+PROGRESS BAR
+*************************************************************************************/
+.progress-bar {
+	text-align: right;
+}
+
+/************************************************************************************
+RESPONSIVE
+*************************************************************************************/
+@media screen and (max-width: 1000px) {
+	#headerwrap #menu-icon {
+		right: auto;
+		left: 0;
+	}
+	#headerwrap #main-nav ul {
+		padding: 0 1em 0 0;
+	}
+	#headerwrap #main-nav a,
+	#headerwrap #main-nav ul a {
+		text-align: right;
+	}
+	#headerwrap #searchform #s,
+	#header .social-widget,
+	#searchform-wrap,
+	#main-nav {
+		float: none;
+	}
+}
