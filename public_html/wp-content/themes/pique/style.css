@@ -871,6 +871,15 @@ a:active {
 	padding: 0;
 	text-align: center;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+	font-style: normal;
+	margin: 81px 0px 0px !important;
+	padding: 0px !important;
+	text-align: center !important;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75) !important;
+	font-size: 48px !important;
+	text-transform: none !important;
+	font-family: helvetica !important;
+	font-weight: 400 !important;
 }
 .site-branding .site-title a {
 	color: #fcfbf9;

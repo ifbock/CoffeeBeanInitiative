@@ -1455,6 +1455,11 @@ class Grunion_Contact_Form extends Crunion_Contact_Form_Shortcode {
 				$r_success_message .= self::success_message( $feedback_id, $form );
 			}
 
+			$r_success_message = "<!--
+			--><h3 style=\"font-family: helvetica ! important; text-align: center; text-transform: none; color: rgb(206, 206, 206);\">Merci de votre support</h3><!--
+			--><p style=\"font-size: 18px; font-family: helvetica; font-style: normal; color: rgb(229, 229, 229);\"><!--
+			-->Restez à l'affut, vous serez bientôt amené à prendre part à notre initiative!<!--
+			--></p><style>#contact-form-4578 { padding: 50px !important }</style>";
 			/**
 			 * Filter the message returned after a successfull contact form submission.
 			 *
@@ -1496,7 +1501,7 @@ class Grunion_Contact_Form extends Crunion_Contact_Form_Shortcode {
 			$r .= "<form action='" . esc_url( $url ) . "' method='post' class='contact-form commentsblock'>\n";
 			$r .= $form->body;
 			$r .= "\t<p class='contact-submit'>\n";
-			$r .= "\t\t<input type='submit' value='" . esc_attr( $form->get_attribute( 'submit_button_text' ) ) . "' class='pushbutton-wide'/>\n";
+			$r .= "\t\t<input type='submit' value='" . 'Participez' . "' class='pushbutton-wide'/>\n";
 			if ( is_user_logged_in() ) {
 				$r .= "\t\t" . wp_nonce_field( 'contact-form_' . $id, '_wpnonce', true, false ) . "\n"; // nonce and referer
 			}
