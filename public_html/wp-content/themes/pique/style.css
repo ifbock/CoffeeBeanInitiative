@@ -889,8 +889,7 @@ a:active {
 }
 .site-branding .site-description {
 	color: #fcfbf9;
-	font-style: italic;
-	margin: 0;
+	font-style: normal;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
 }
 
@@ -2327,6 +2326,7 @@ blockquote
 	max-width: 700px;
 	padding: 20px;
 	text-shadow: none;
+	display: inline-block;
 }
 .pique-panel-content blockquote,
 .pique-panel-content .pique-template-testimonials .pique-testimonials article .entry-content,
