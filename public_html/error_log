@@ -1,4 +1,8 @@
-[22-Nov-2016 23:12:47 UTC] PHP Fatal error:  Cannot call overloaded function for non-object in /home/coffeebeanadmin/public_html/wp-includes/plugin.php on line 235
-[23-Nov-2016 00:41:39 UTC] PHP Warning:  Missing argument 3 for MailChimp_API::get(), called in /home/coffeebeanadmin/public_html/wp-content/plugins/mailchimp/mailchimp.php on line 638 and defined in /home/coffeebeanadmin/public_html/wp-content/plugins/mailchimp/lib/mailchimp/mailchimp.php on line 21
-[23-Nov-2016 00:41:39 UTC] PHP Warning:  Missing argument 3 for MailChimp_API::get(), called in /home/coffeebeanadmin/public_html/wp-content/plugins/mailchimp/mailchimp.php on line 674 and defined in /home/coffeebeanadmin/public_html/wp-content/plugins/mailchimp/lib/mailchimp/mailchimp.php on line 21
-[23-Nov-2016 00:41:39 UTC] PHP Warning:  Missing argument 3 for MailChimp_API::get(), called in /home/coffeebeanadmin/public_html/wp-content/plugins/mailchimp/mailchimp.php on line 684 and defined in /home/coffeebeanadmin/public_html/wp-content/plugins/mailchimp/lib/mailchimp/mailchimp.php on line 21
+[04-Dec-2016 11:34:29 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/coffeebeanadmin/public_html/deleteme.wpn4qm.php on line 16
+[04-Dec-2016 11:34:29 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/coffeebeanadmin/public_html/deleteme.wpub6z.php on line 16
+[04-Dec-2016 11:34:30 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/coffeebeanadmin/public_html/deleteme.wp0sbf.php on line 16
+[04-Dec-2016 11:34:34 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/coffeebeanadmin/public_html/deleteme.wpohye.php on line 16
+[04-Dec-2016 17:32:54 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/coffeebeanadmin/public_html/deleteme.wpavvm.php on line 16
+[04-Dec-2016 17:32:54 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/coffeebeanadmin/public_html/deleteme.wpbb61.php on line 16
+[04-Dec-2016 17:32:54 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/coffeebeanadmin/public_html/deleteme.wpdy6n.php on line 16
+[04-Dec-2016 17:32:54 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/coffeebeanadmin/public_html/deleteme.wplbqa.php on line 16
