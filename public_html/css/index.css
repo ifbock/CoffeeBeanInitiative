@@ -1194,7 +1194,7 @@ body
 	position: relative;
 	margin: 20px 40px;
 	font-size: 16px;
-	text-align: justify;
+	text-align: center;
 }
 
 #u18517, #u18512, #u18502, #u18505 {
@@ -1210,5 +1210,9 @@ body
   .title {
     font-size: 32px;
 		margin-top: 0px;
+  }
+
+  .description {
+  	font-size: 18px;
   }
 }
