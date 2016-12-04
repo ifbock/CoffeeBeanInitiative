@@ -1192,7 +1192,7 @@ body
 	color: #eee;
 	z-index: 56;
 	position: relative;
-	margin: 20px 40px;
+	margin: 30px 40px;
 	font-size: 16px;
 	text-align: center;
 }
@@ -1203,10 +1203,19 @@ body
 }
 
 #widgetu18499 {
-	margin-top: 110px;
+	margin-top: 105px;
+}
+
+#u18679 {
+	height: 330px;
 }
 
 @media (max-width: 600px) {
+	#u18679 {
+		width: 288px;
+		height: 335px;
+	}
+
   .title {
     font-size: 32px;
 		margin-top: 0px;
@@ -1214,5 +1223,6 @@ body
 
   .description {
   	font-size: 18px;
+  	margin: 20px 40px;
   }
 }
