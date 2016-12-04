@@ -622,7 +622,7 @@ button,
 input[type='button'],
 input[type='reset'],
 input[type='submit'] {
-	background-color: #83b6cc;
+	background-color: rgb(90, 90, 90);
 	border: 2px solid transparent;
 	border-radius: 2em;
 	color: #eff6f9;
@@ -888,9 +888,17 @@ a:active {
 	margin-top: 20px;
 }
 .site-branding .site-description {
+
+ 	margin-right: 384px;
+    	margin-bottom: 384px;
+    	margin-left: 384px;
+
 	color: #fcfbf9;
 	font-style: normal;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+	
+}
+
 }
 
 @media (max-width: 767px) {
